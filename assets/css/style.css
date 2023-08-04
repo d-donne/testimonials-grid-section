@@ -118,6 +118,7 @@ span {
 
 .daniel::before {
   content: "“";
+  font-family: 'serif';
   color: hsla(263, 85%, 71%, 0.962);
   position: absolute;
   font-size: 25rem;
