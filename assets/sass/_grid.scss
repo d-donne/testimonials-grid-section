@@ -4,12 +4,12 @@
   column-gap: 1.8rem;
   grid-template-columns: 1fr;
   padding: 1.25rem;
-  grid-template-areas: 
-  'daniel'
-  'jonathan'
-  'jeanette'
-  'patrick'
-  'kira';
+  grid-template-areas:
+    "daniel"
+    "jonathan"
+    "jeanette"
+    "patrick"
+    "kira";
 
   .card {
     padding: 1.5rem 1.875rem 1.875rem 1.875rem;
@@ -38,7 +38,6 @@
     }
 
     .card-body {
-      
       &__summary {
         color: $light-gray;
         font-size: 1.125rem;
@@ -70,58 +69,54 @@
       color: $very-dark-grayish-blue-text;
       line-height: 1.5;
     }
-    
-  }
-}
-
-
-
-.daniel {
-  background-color: $moderate-violet;
-  grid-area: daniel;
-  position: relative;
-
-  .profile__image {
-    outline: 2px solid $light-gray-text;
   }
 
-  .card-body {
-    isolation: isolate;
-  }
-  
-}
+  .daniel {
+    background-color: $moderate-violet;
+    grid-area: daniel;
+    position: relative;
 
-.jonathan {
-  background-color: $very-dark-grayish-blue;
-  grid-area: jonathan;
-}
+    .profile__image {
+      outline: 2px solid $light-gray-text;
+    }
+
+    .card-body {
+      isolation: isolate;
+    }
+  }
+
+  .jonathan {
+    background-color: $very-dark-grayish-blue;
+    grid-area: jonathan;
+  }
 
   .jeanette {
     grid-area: jeanette;
   }
 
-.patrick {
-  background-color: $very-dark-blackish-blue;
-  grid-area: patrick;
+  .patrick {
+    background-color: $very-dark-blackish-blue;
+    grid-area: patrick;
 
-  .profile__image {
-    outline: 2px solid $moderate-violet;
+    .profile__image {
+      outline: 2px solid $moderate-violet;
+    }
+  }
+
+  .kira {
+    grid-area: kira;
   }
 }
 
-.kira {
-    grid-area: kira;
-}
 
 .daniel::before {
-    content: '\201C';
+    content: '\201c';
+    // font-family: Arial, Helvetica, sans-serif;
     color: hsla(263, 85%, 71%, 0.962);
     position: absolute;
-    font-size: 30em;
-    top: -4.5rem;
+    font-size: 25rem;
+    top: -4.8rem;
     right: 0;
     margin-right: 1.5rem;
   }
-
-
 

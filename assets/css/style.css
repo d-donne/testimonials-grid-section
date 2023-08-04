@@ -87,37 +87,32 @@ span {
   color: hsla(217, 19%, 35%, 0.7);
   line-height: 1.5;
 }
-
-.daniel {
+.grid-container .daniel {
   background-color: hsl(263, 55%, 52%);
   grid-area: daniel;
   position: relative;
 }
-.daniel .profile__image {
+.grid-container .daniel .profile__image {
   outline: 2px solid hsla(0, 0%, 81%, 0.7);
 }
-.daniel .card-body {
+.grid-container .daniel .card-body {
   isolation: isolate;
 }
-
-.jonathan {
+.grid-container .jonathan {
   background-color: hsl(217, 19%, 35%);
   grid-area: jonathan;
 }
-
-.jeanette {
+.grid-container .jeanette {
   grid-area: jeanette;
 }
-
-.patrick {
+.grid-container .patrick {
   background-color: hsl(219, 29%, 14%);
   grid-area: patrick;
 }
-.patrick .profile__image {
+.grid-container .patrick .profile__image {
   outline: 2px solid hsl(263, 55%, 52%);
 }
-
-.kira {
+.grid-container .kira {
   grid-area: kira;
 }
 
@@ -125,8 +120,8 @@ span {
   content: "“";
   color: hsla(263, 85%, 71%, 0.962);
   position: absolute;
-  font-size: 30em;
-  top: -4.5rem;
+  font-size: 25rem;
+  top: -4.8rem;
   right: 0;
   margin-right: 1.5rem;
 }
