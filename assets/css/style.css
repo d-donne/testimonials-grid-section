@@ -118,11 +118,7 @@ span {
 
 .daniel::before {
   content: "“";
-<<<<<<< HEAD
-  font-family: 'serif';
-=======
   font-family: Arial, Helvetica, sans-serif;
->>>>>>> c6a63ba (fixed images)
   color: hsla(263, 85%, 71%, 0.962);
   position: absolute;
   font-size: 25rem;
